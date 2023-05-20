@@ -10,8 +10,7 @@
         $full_name = $_POST['full_name'];
         $email = $_POST['email'];
         $gender = $_POST['gender'];
-
-   
+  
 
     $sql = "INSERT INTO students(full_name, email, gender) VALUES('$full_name', '$email', '$gender')";
 
